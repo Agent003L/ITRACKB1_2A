@@ -1,0 +1,421 @@
+<!--PRODUCTS SECTION-->
+
+    <section class="products" id="products">
+
+        <h1 class="heading">Recommend <span>products</span> </h1>
+
+        <div class="swiper product-slider">
+
+            <div class="swiper-wrapper">
+
+                <a href="./products/ampalaya.html">
+                    <div class="swiper-slide box">
+                        <img src="images/product-ampalaya.png" alt="">
+                        <h3>Ampalaya</h3>
+                        <div class="price"> ₱100 per kilo </div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <a href="#" class="btn">Add to Cart</a>
+                    </div>
+                </a>
+
+                <a href="./products/reployo.html">
+                    <div class="swiper-slide box">
+                        <img src="images/product2-repolyo.png" alt="">
+                        <h3>Repolyo</h3>
+                        <div class="price"> ₱120 per kilo </div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                </a>
+
+                <a href="./products/sayote.html">
+                    <div class="swiper-slide box">
+                        <img src="images/product3-sayote.png" alt="">
+                        <h3>Sayote</h3>
+                        <div class="price"> ₱80 per kilo </div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                </a>
+
+                <a href="./products/talong.html">
+                    <div class="swiper-slide box">
+                        <img src="images/product4-talong.png" alt="">
+                        <h3>Talong</h3>
+                        <div class="price"> ₱110 per kilo </div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                </a>
+                
+            </div>
+        </div>
+
+        <div class="swiper product-slider">
+
+            <div class="swiper-wrapper">
+
+                <a href="./products/sitaw.html">
+                    <div class="swiper-slide box">
+                        <img src="images/product5-sitaw.png" alt="">
+                        <h3>Sitaw</h3>
+                        <div class="price"> ₱50 per bugkos </div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                </a>
+
+                <a href="./products/okra.html">
+                    <div class="swiper-slide box">
+                        <img src="images/product6-okra.png" alt="">
+                        <h3>Okra</h3>
+                        <div class="price"> ₱15 per bugkos </div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                </a>
+
+                <a href="./products/patola.html">
+                    <div class="swiper-slide box">
+                        <img src="images/product7-patola.png" alt="">
+                        <h3>Patola</h3>
+                        <div class="price"> ₱60 per kilo </div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                </a>
+                
+                <a href="./products/kalabasa.html">
+                    <div class="swiper-slide box">
+                        <img src="images/product8-kalabasa.png" alt="">
+                        <h3>Kalabasa</h3>
+                        <div class="price"> ₱120 per kilo </div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                </a>
+                
+            </div>
+        </div>
+    </section>
+
+    <!--CATEGORIES | VEGETABLES & FRUIT SECTION-->
+
+    <section class="categories" id="categories">
+        <h1 class="heading">product <span>categories</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="images/organic-vegies.png">
+                <h3>Vegetables Categories</h3>
+                <a href="vegetable.html" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="images/fresh-fruits.png">
+                <h3>Fruits Categories</h3>
+                <a href="fruit.html" class="btn">Shop now</a>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <section class="products">
+        <h1>Vege<span>tables</span></h1>
+
+        <div class="product-selection">
+            <div class="product-wrapper">
+                <a href="./products/ampalaya.html">
+                    <div class="box">
+                        <img src="images/product-ampalaya.png" alt="">
+                        <h3>Ampalaya</h3>
+                        <div class="price"> ₱100 per kilo </div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <a href="#" class="btn">Add to Cart</a>
+                    </div>
+                </a>
+
+                <a href="./products/reployo.html">
+                    <div class="box">
+                        <img src="images/product2-repolyo.png" alt="">
+                        <h3>Repolyo</h3>
+                        <div class="price"> ₱120 per kilo </div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                </a>
+
+                <a href="./products/sayote.html">
+                    <div class="box">
+                        <img src="images/product3-sayote.png" alt="">
+                        <h3>Sayote</h3>
+                        <div class="price"> ₱80 per kilo </div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="product-selection">
+            <div class="product-wrapper">
+                <a href="./products/talong.html">
+                    <div class="box">
+                        <img src="images/product4-talong.png" alt="">
+                        <h3>Talong</h3>
+                        <div class="price"> ₱110 per bugkos </div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                </a>
+
+                <a href="./products/sitaw.html">
+                    <div class="box">
+                        <img src="images/product5-sitaw.png" alt="">
+                        <h3>Sitaw</h3>
+                        <div class="price"> ₱50 per bugkos </div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                </a>
+
+                <a href="./products/patola.html">
+                    <div class="box">
+                        <img src="images/product6-okra.png" alt="">
+                        <h3>Okra</h3>
+                        <div class="price"> ₱15 per bugkos </div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+
+        <div class="product-selection">
+            <div class="product-wrapper">
+
+                <a href="./products/patola.html">
+                    <div class="box">
+                        <img src="images/product7-patola.png" alt="">
+                        <h3>Patola</h3>
+                        <div class="price"> ₱60 per kilo </div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                </a>
+                
+                <a href="./products/kalabasa.html">
+                    <div class="box">
+                        <img src="images/product8-kalabasa.png" alt="">
+                        <h3>Kalabasa</h3>
+                        <div class="price"> ₱120 per kilo </div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                </a>
+
+                <a href="./products/patani.html">
+                    <div class="box">
+                        <img src="images/product9-patani.png" alt="">
+                        <h3>Patani</h3>
+                        <div class="price"> ₱40 per kilo</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+
+    let slidePosition = 0;
+const slides = document.getElementsByClassName('carousel_item');
+const totalSlides = slides.length;
+
+document.getElementById('carousel_button--next').addEventListener("click",function(){moveToNextSlide();});
+
+document.getElementById('carousel_button--prev').addEventListener("click",function(){moveToPrevSlide();});
+
+function updateSlidePosition(){
+	for(let slide of slides){
+		slide.classList.remove('carousel_item--visible');
+		slide.classList.add('carousel_item--hidden');
+	}
+	slides[slidePosition].classList.add('carousel_item--visible');
+}
+
+function moveToNextSlide(){
+	if(slidePosition === totalSlides-1){
+		slidePosition = 0;
+	}else{
+		slidePosition++;
+	}
+	updateSlidePosition();
+
+}
+function moveToPrevSlide(){
+	
+	if(slidePosition === 0){
+		slidePosition = totalSlides - 1;
+	}else{
+		slidePosition--;
+	}
+	updateSlidePosition();
+}
+
+
+
+
+/*======================RECIPES======================*/
+.recipes {
+    padding-top: 3rem;
+}
+
+.recipes .recipes-slider {
+    padding: 1rem;
+    margin-left: 10px;
+}
+
+.recipes .recipes-slider .box {
+    background: #fff;
+    border-radius: .5rem;
+    text-align: center;
+    padding: 3rem 2rem;
+    outline-offset: -1rem;
+    outline: var(--outline);
+    box-shadow: var(--box-shadow);
+    transition: .2s linear;
+}
+
+.recipes .recipes-slider .box:hover {
+    outline-offset: 0rem;
+    outline: var(--outline-hover);
+}
+
+.recipes .recipes-slider .box img {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+}
+
+
+.recipes .recipes-slider .box h3 {
+    padding: 1rem 0;
+    line-height: 1.8;
+    color: var(--black);
+    font-size: 2.2rem;
+}
+
+.recipes .recipes-slider .box .stars i {
+    color: var(--orange);
+    font-size: 1.7rem;
+}

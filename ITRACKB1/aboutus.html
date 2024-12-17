@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boboy's Fruits and Vegetables</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/aboutus.css">
+
+</head>
+<body>
+    <header class="header">
+
+        <a href="#" class="logo"><i class="fa-solid fa-shop"></i>Boboy's Online Market</a>
+
+        <div class="back-button"  onclick="goBack()">
+            <div class="fa fa-chevron-left" aria-hidden="true"></div>
+        </div>
+
+        <!--THE NAVBAR ON THE CENTER-->
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="products.html">Products</a>
+            <a href="categories.html">Categories</a>
+            <a href="#about-us">About us</a>
+        </nav>
+
+        <!--ICONS ON THE RIGHT SIDE-->
+
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"><span id="itemCounter">0</span></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+
+        <!--SEARCH BAR-->
+
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="search">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="shopping-cart">
+            <h1 class="heading"><i class="fas fa-shopping-cart"></i>Shopping Cart</h1>
+            
+        </div>
+
+        <!--ACCOUNT | LOGIN - SIGNUP SECTION-->
+
+        <form action="" class="form">
+            <i class="fa fa-users" aria-hidden="true"><span>ACCOUNT</span></i>
+            <button type="button" id="show-login">LOGIN</button>
+            <button type="button" id="show-signup">SIGN UP</button>
+        </form>
+
+    </header>
+
+    <!--ABOUT US SECTION-->
+
+    <section class="about-us" id="about-us">
+        <h1 class="heading">About <span>us</span></h1>
+        <div class="box-container">
+            <h2>Boboy's Fruits and Vegetables</h2>
+            <p>Welcome to Boboy's Fruits and Vegetables, your online gateway to the freshest produce Catanduanes has to offer. We're a passionate team dedicated to bringing the vibrant flavors of our island directly to your kitchen. Our online market, conveniently located in District One, Gigmoto, Catanduanes, is your source for hand-selected fruits and vegetables, sourced directly from local farmers. We pride ourselves on offering the highest quality produce, ensuring every item is ripe, flavorful, and bursting with freshness.
+                <br><br>At Boboy's, we believe in more than just delivering delicious food. We're committed to supporting our local community and promoting sustainable agriculture practices. By choosing Boboy's, you're not only enjoying the freshest produce, but also contributing to a thriving local economy and a healthier environment.</p>
+        </div>
+
+    </section>
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Boboy's Fruits & Vegetables<i class="fa-solid fa-shop"></i></h3>
+                <p>©Boboy's Online Shop</p>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#" class="links"><i class="fas fa-phone"></i>+639302641807</a>
+                <a href="#" class="links"><i class="fas fa-envelope"></i>emytimuat123@gmail.com</a>
+                <a href="#" class="links"><i class="fas fa-map-marker-alt"> virac</i>emytimuat123@gmail.com</a>
+            </div>
+
+            <div class="box">
+                <h3>follow us</h3>
+                <div class="follow">
+                    <a href="https://www.facebook.com/profile.php?id=100093852422739" target="_blank"><i class="fab fa-facebook-square" aria-hidden="true"> <span>Facebook</span></i></a>
+                    <a href="#"><i class="fab fa-twitter" aria-hidden="true"> <span> X</span></i></a>
+                    <a href="#"><i class="fab fa-instagram"> <span>Instagram</span></i></a>
+                </div>       
+            </div>
+
+
+            <div class="box">
+                <h3>newsletter</h3>
+                <p>subscribe for latest updates</p>
+                <input type="email" placeholder="please enter your emal" class="email">
+                <input type="submit" value="subscribe" class="btn">
+            </div>
+
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+
+
